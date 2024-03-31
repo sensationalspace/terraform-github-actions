@@ -6,7 +6,7 @@ terraform {
     }
   }
 
-  # Update this block with the location of your terraform state file
+  # Update this block with the location of your terraform state file in Azure
   backend "azurerm" {
     resource_group_name  = "haba_github_actions_terraform_rg"
     storage_account_name = "habaterraformgithub"
