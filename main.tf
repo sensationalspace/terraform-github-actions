@@ -13,8 +13,6 @@ terraform {
     container_name       = "terraformstate"
     key                  = "terraform.tfstate"
     use_oidc             = true
-    subscription_id      = "bd78e857-32b0-428f-95d9-c697d0b1ecce"
-    tenant_id            = "6556067c-81a0-4056-b468-00ad9ee73d03"
   }
 }
 
